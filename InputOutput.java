@@ -4,8 +4,20 @@ public class InputOutput{
  public static void main(String [] args){
   Scanner scanner = new Scanner(System.in);
   String nama;
+  int jumlahSks;
+  double ipk;
+  
   System.out.print("Masukkan nama anda: ");
   nama = scanner.nextLine();
   System.out.println("Hai, "+nama);
+
+  System.out.print("Masukkan jumlah sks yang sudah ditempuh: ");
+  jumlahSks = scanner.nextLine();
+  
+  System.out.print("Masukkan IPK Sementara : ");
+  IPK = scanner.nextLine();
+
+  double jumlah = IPK * jumlahSks;
+  System.out.println("Total Nilai = "+jumlah);
  }
 }
