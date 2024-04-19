@@ -5,17 +5,17 @@ public class InputOutput{
   Scanner scanner = new Scanner(System.in);
   String nama;
   int jumlahSks;
-  double ipk;
+  double IPK;
   
   System.out.print("Masukkan nama anda: ");
   nama = scanner.nextLine();
   System.out.println("Hai, "+nama);
 
   System.out.print("Masukkan jumlah sks yang sudah ditempuh: ");
-  jumlahSks = scanner.nextLine();
+  jumlahSks = scanner.nextInt();
   
   System.out.print("Masukkan IPK Sementara : ");
-  IPK = scanner.nextLine();
+  IPK = scanner.nextDouble();
 
   double jumlah = IPK * jumlahSks;
   System.out.println("Total Nilai = "+jumlah);
